@@ -1,0 +1,46 @@
+.weather-now{
+    background-color: #4e595b80;
+
+    font-family: 'Prompt';
+    font-weight: 300;
+    font-size: 1.35rem;
+    color: rgba(245, 245, 245, 0.76);
+
+    margin-top: 30px;
+    padding: 15px;
+    height: 315px;
+    width: 100%;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ssRow img{
+    height: 50px;
+    width: 50px;
+}
+
+.ssRow{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.ssText{
+    margin: 0;
+}
+
+.curr-conditions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

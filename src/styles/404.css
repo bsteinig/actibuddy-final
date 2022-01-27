@@ -1,0 +1,18 @@
+.error-box{
+    margin-top: 4rem;
+
+}
+
+.large{
+    font-family: 'Prompt';
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+.emoji{
+    font-size: 6rem;
+}
+
+

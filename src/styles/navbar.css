@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --black: #789691;
+    --yellow: #3a4b44;
+    --white: whitesmoke;
+    --transition: all 0.3s linear;
+    --spacing: 0.2rem;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end !important;
+    z-index: 2;
+}
+.navbar-custom { 
+    background-color: var(--black); 
+    color: var(--white);
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    top: 0;
+    left: 0;
+} 
+
+.active-custom a {
+    font-family: 'Prompt';
+    font-size: 1.15rem;
+    text-transform: capitalize;
+    color: var(--black);
+    font-weight: bold;
+    transition: var(--transition);
+    padding: 0.5rem 0;
+    font-weight: 300;
+  }
+
+  .active-custom a:hover {
+    color: var(--yellow);
+    box-shadow: 0px 2px var(--yellow);
+  }
+
+.active-custom a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;  
+      left: 0;
+      width: 100%;
+      height: .2rem;
+      transform: scaleX(0);
+      transition: transform 0.4s ease;
+      transform-origin: bottom right;
+      background-color: var(--yellow);
+  }
+
+  .active-custom a:hover::after {
+      transform-origin: bottom left;
+      transform: scaleX(1);
+  }
+
+  .propic {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+  }
+
+.logout-drop{
+    font-size: 1rem;
+}
+
+.nav-custom-flex{
+    display: flex !important;
+    flex-direction: row !important;
+} 
+
+.dropdown-menu{
+  width: 100%;
+  background-color:#4e595b;
+  color: whitesmoke;
+}
+
+.dropdown-menu:hover{
+  background-color: #789691;
+}
+
+.dropdown-item{
+  color: whitesmoke;
+}
+
+.dropdown-item:hover{
+  background-color: #789691;
+  color: #2a3031;
+}
+
+.title-bar{
+  font-family: 'Prompt';
+  font-weight: 700;
+  font-size: xx-large;
+  color: whitesmoke;
+}
+
+.gray-title{
+  color: #cfcfcf;
+}
+
+.navbar-collapse{
+  justify-content: space-between;
+}
+
+.justification{
+  align-items: center;
+}
+
+.btn-secondary{
+  background-color:#3a4b44;
+  color: #7f9e99;
+}
+
+.btn-secondary:hover{
+  background-color: #7f9e99;
+  color: #3a4b44;
+}

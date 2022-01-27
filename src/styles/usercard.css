@@ -1,0 +1,39 @@
+.user-card{
+    height: 50px;
+}
+
+.user-flex{
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-group, .right-group{
+    display: flex;
+}
+
+.left-group > p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.user-card:hover{
+    background-color: #7f9e99;
+    color: #3a4b44;
+    cursor: pointer;
+}
+
+.user-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.right-group button{
+    border: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 1.75rem;
+}

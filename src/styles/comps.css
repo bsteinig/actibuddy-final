@@ -1,0 +1,188 @@
+body{
+    background-color: #495952;
+}
+
+
+.box{
+    background-color:#b8d0cc; 
+    border-width: 4px; 
+    width: 820px;
+    height: 620px;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: center;
+    font-family: 'Prompt';
+}
+
+.box1{
+    background-color:#b8d0cc; 
+    border-width: 4px; 
+    width: 620px;
+    height: 293px;
+    margin-top: 200px;
+    margin-left: 760px;
+    position:absolute;
+    text-align: center;
+    font-family: 'Prompt';
+}
+
+.competitions span{
+    display: block;
+}
+
+.box10{
+    background-color:#b8d0cc; 
+    border-width: 4px; 
+    width: 620px;
+    height: 293px;
+    margin-top: -625px;
+    margin-left: 760px;
+    font-family: 'Prompt';
+}
+
+.box11{
+    text-align: center;
+}
+
+.box .box2{
+    position:relative; 
+    width: 540px;
+    height: 540px;
+    margin:auto; 
+    background-color: white;
+    margin-top: 10px;
+   
+}
+
+.box .below{
+    position:relative; 
+    width: 540px;
+    height: 200px;
+    margin:auto; 
+    background-color: palevioletred;
+}
+
+.box .below .below1{
+    height: 66.6px;
+    width: 540px;
+    background-color:#bdbdbd;
+    padding-top: 20px;
+    text-align: left;
+    color:white; 
+    
+}
+
+.box .below .below2{
+    height: 66.6px;
+    width: 540px;
+    background-color: white;
+    padding-top: 20px;
+    text-align: left;
+    color:#bdbdbd; 
+}
+
+.box .below .below3{
+    height: 66.6px;
+    width: 540px;
+    background-color:#bdbdbd;
+    padding-top: 20px;
+    text-align: left;
+    color:white; 
+}
+
+.box .box2 .box3{
+    position:relative; 
+    width: 540px;
+    height: 340px;
+    margin:auto; 
+    background-color: #d4e6e3;
+    margin-top: 10px;
+}
+
+
+.box3 .box4{
+    position:relative; 
+    width: 50px;
+    height: 75px;
+    background-color: #38635c;
+    margin-left: 90px;
+    top: 265px; 
+    color: white; 
+}
+
+.box3 .box5{
+    position:relative; 
+    width: 50px;
+    height: 140px;
+    background-color: #38635c;
+    margin-left: 220px;
+    top: 125px; 
+    color:white; 
+}
+
+.box3 .box6{
+    position:relative; 
+    width: 50px;
+    height: 200px;
+    background-color: #38635c;
+    margin-left: 350px;
+    bottom: 75px; 
+    color:white; 
+}
+
+
+.writing{
+    margin-top: 5px;
+    font-size: 40px;
+    color:white;
+}
+
+img{
+    width: 150px; 
+    height: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .friend-search{
+    width: 100%;
+    height: 1.65rem;
+    border-radius: .25rem;
+    font-size: 1.25rem;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.705);
+}
+
+.search-btn{
+    font-size: 1.25rem !important;
+    font-weight: 300;
+    color: whitesmoke;
+    padding: 2px 10px 0px 10px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke !important;
+}
+
+.extra-box{
+    background-color: #4e595b80;
+
+    font-family: 'Prompt';
+    font-weight: 300;
+    font-size: 1.35rem;
+    color: rgba(245, 245, 245, 0.76);
+
+    height: 215px;
+    overflow-y: scroll;
+    width: 100%;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.extramargins{
+    margin-right: 25px;
+}

@@ -1,0 +1,42 @@
+.flex-center{
+    justify-content: space-evenly;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+
+    width: 30rem;
+    background-color: #4e595b80;
+    border-radius: 10px;
+    padding: 20px;
+
+    margin: 10px;
+}
+
+.info-img{
+    width: 100%;
+
+    height: auto;
+    object-fit: fill;
+}
+
+.info-card h3 {
+    color: whitesmoke;
+}
+
+.info-card h5 {
+    color: rgba(245, 245, 245, 0.75);
+    font-weight: 300;
+}
+
+.info-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-row a{
+    padding: 0px 10px;
+    font-size: 1.65rem;
+    color: rgba(240, 240, 240, 0.75);
+}

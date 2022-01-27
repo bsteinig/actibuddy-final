@@ -1,0 +1,84 @@
+.logo {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginbtn{
+    font-family: 'Prompt';
+    font-weight: 500;
+    margin: 10rem 2rem;
+    background-color: #3a4b44;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1.25rem 2rem;
+    border-radius: 2.5rem;
+    border: none;
+    text-decoration: none;
+}
+
+.loginbtn img{
+    height: 50px;
+    width: 50px;
+}
+
+.extrastuff{
+    position: relative;
+    height: 150vh;
+}
+
+.block{
+    background-color: #789691;
+    height: 25rem;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hero{
+    width: 650px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -25px;
+    right: 0;
+    overflow: hidden;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    z-index: -2;
+}
+
+.top-title{
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 6rem;
+    padding-left: 2rem;
+    margin: 0;
+    color: #3a4b44;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.third{
+    font-family: 'Prompt';
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    width: 50vw;
+    color: whitesmoke;
+    margin-bottom: 3rem;
+}
+
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

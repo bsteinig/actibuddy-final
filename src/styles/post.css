@@ -1,0 +1,81 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 1rem;
+}
+
+.p-small{
+    width: 250px;
+}
+
+.name-bar{
+    background-color: #3a4b4431;
+    padding: 5px 10px;
+    color: whitesmoke;
+}
+
+.name{
+    font-family: 'Prompt';
+    font-weight: 600;
+}
+
+.bottom-group{
+    background-color: #3a4b4431;
+    padding: 1rem;
+}
+
+.postImage {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.pI-small{
+    width: 250px;
+    height: 250px;
+}
+
+.texty{
+    font-family: 'Prompt';
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.t-small{
+    font-size: 2rem;
+}
+
+.pink  {
+    color: pink;
+    font-size: 2rem;
+}
+
+.postlikes{
+    display: flex;
+    align-items: center;
+}
+
+.capti{
+    font-size: 2rem;
+}
+
+.capti-small{
+    font-size: 1.5rem;
+}
+
+.type{
+    font-size: 1rem;
+}
+
+.type-small{
+    font-size: .75rem;
+}
+
+.deleteButton{
+    border-radius: 0;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    float:right;
+}
